@@ -1,0 +1,120 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+#right {
+    float: left;
+    flex: 1;
+    margin-top: 10px;
+}
+
+#left {
+    float: right;
+    /* margin-right: 5px; */   
+}
+
+#left span {
+    margin-right: 10px;
+}
+
+#navbar {
+    /* background-color: aqua; */
+    padding: 10px;
+    display: flex;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    padding: 10px;
+}
+
+#button {
+    background-color: white;
+    color: rgb(57, 156, 236);
+    border: 1px solid rgb(57, 156, 236);
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.heading {
+    background: linear-gradient(to right, rgb(0, 234, 255), rgb(241, 2, 241));
+    text-align: center;
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    color: white;
+    
+}
+
+.b1 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mid {
+    text-align: center;
+}
+
+.mid p {
+    font-size: 30px;
+}
+
+.heading p {
+    font-size: 30px;
+}
+
+
+.footer {
+    height: 50px;
+    background-color: white;
+
+}
+
+.footer a {
+    float: right;
+}
+
+.b2 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-desc {
+    font-size: 14px;
+    color: rgb(83, 82, 82);
+    text-align: center;
+}
+
